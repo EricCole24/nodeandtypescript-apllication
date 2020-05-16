@@ -1,0 +1,61 @@
+{
+  "name": "nodeandtypescript-apllication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=* & nodemon ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricCole24/nodeandtypescript-apllication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricCole24/nodeandtypescript-apllication/issues"
+  },
+  "homepage": "https://github.com/EricCole24/nodeandtypescript-apllication#readme",
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/debug": "^4.1.5",
+    "@types/express": "^4.17.6",
+    "@types/express-session": "^1.17.0",
+    "@types/mongodb": "^3.5.11",
+    "@types/morgan": "^1.9.0",
+    "@types/nodemailer": "^6.4.0",
+    "@types/passport": "^1.0.3",
+    "@types/passport-local": "^1.0.33",
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "chalk": "^4.0.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.1.1",
+    "ejs": "^3.1.2",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jquery": "^3.5.0",
+    "local": "^0.3.3",
+    "mongodb": "^3.5.6",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "lite-server": "^2.5.4"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ]
+  }
+}
